@@ -13,7 +13,7 @@ app.use(express.json());
 
 //Routes
 app.use(require('./app'));
-app.use('/api/request', require('./users.routes'));
+app.use('/api/request/users', require('./users.routes'));
 
 const main = () => {
   app.listen(app.get("port"), () => {
