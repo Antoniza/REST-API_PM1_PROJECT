@@ -3,7 +3,7 @@ const router = express.Router();
 const {selectUsersQuery, insertUsersQuery, selectUsersUnique, deleteUsersUnique, updateUsersQuery} = require('../controllers/users.controller');
 
 router.get('/', (req, res) => {
-    res.send("Estas en la pagina principal");
+    res.json("{Message: 'Estas en la tabla de users. La estructura es la siguiente:', username: '', email: '', password: '', number: ''}");
 });
 
 router.get('/actionTableUsers/', selectUsersQuery);
