@@ -1,8 +1,8 @@
 module.exports = {
   config: {
-    host: "remotemysql.com",
-    database: "1aL69zqSHH",
-    user: "1aL69zqSHH",
-    password: "0fKolKLfLD",
+    host: "sql5.freemysqlhosting.net",
+    database: "sql5505430",
+    user: "sql5505430",
+    password: "egTBwqhDGl",
   },
 };
